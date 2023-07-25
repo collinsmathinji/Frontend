@@ -2,38 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useDiabeticContext } from '../hooks/DiabeticStatsContext';
 import { useAuthContext } from '../hooks/useAuthContext';
 import { format } from 'date-fns';
-import Chart from 'chart.js/auto';
+
 
 const DiabeticStatsDetails = ({ stats }) => {
   const { dispatch } = useDiabeticContext();
   const { user } = useAuthContext();
 
   const [diabeticStats, setDiabeticStats] = useState(null);
-  const [chartData, setChartData] = useState([]);
-  const chartRef = useRef(null);
-
   
-  const createChart = () => {
-    if (chartRef.current && chartData.length > 0) {
-      new Chart(chartRef.current, {
-        type: 'bar',
-        data: {
-          labels: ['Average Blood Sugar Level'],
-          datasets: chartData,
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          scales: {
-            y: {
-              beginAtZero: true,
-            },
-          },
-        },
-      });
-    }
-  };
-
   const handleDelete = async () => {
     try {
       const response = await fetch(`https://vercel.com/collinsmathinji/diabetes/Dy87jcdVTcfNVGmUap6Y6uAxpyWW/api/diabeticStats/${stats._id}`, {
@@ -66,15 +42,6 @@ const DiabeticStatsDetails = ({ stats }) => {
         if (response.ok) {
           setDiabeticStats(json);
 
-          const bloodSugarLevels = json.bloodSugarLevel.map(bloodSugar => bloodSugar.value);
-          const averageBloodSugarLevel = bloodSugarLevels.reduce((acc, val) => acc + val, 0) / bloodSugarLevels.length;
-
-          setChartData([
-            {
-              label: 'Average Blood Sugar Level',
-              data: [averageBloodSugarLevel]
-            }
-          ]);
         } else {
           // Handle error if needed
         }
@@ -88,9 +55,7 @@ const DiabeticStatsDetails = ({ stats }) => {
     }
   }, [user, stats._id]);
 
-  useEffect(() => {
-    createChart();
-  }, [chartData, diabeticStats]);
+ 
 
   return (
     <div className="diabetic-stats-details">
