@@ -1,0 +1,480 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/6942072/pexels-photo-6942072.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+header {
+  background: #fff;
+}
+.Main-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+li{
+  list-style: none;
+}
+.Emergency{
+  margin-top: 35px;
+  background-color: rgba(76, 64, 64, 0.461);
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgb(77, 77, 81);
+  text-align: center;
+  margin-left: 10px;
+  color: white;
+  height: 395px;
+  width: 450px;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+ box-shadow: 4px 4px 4px pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align:center;
+  background-image: url(https://images.pexels.com/photos/8965149/pexels-photo-8965149.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+.Emergency-procedures{
+  background-image: url(https://images.pexels.com/photos/8965154/pexels-photo-8965154.jpeg?auto=compress&cs=tinysrgb&w=600);
+  border: 7px black;
+  color:black;
+  font-weight: 40px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  box-shadow: 4px 4px 4px pink;
+  border-radius: 20px;
+}
+.see{
+  color: #e7195a;
+}
+
+.About-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/6942070/pexels-photo-6942070.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  border-radius: 20px;
+}
+.deaths{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/8965129/pexels-photo-8965129.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  border-radius: 20px;
+}
+.slider{
+  margin-left: 110px;
+  border-radius: 15px;
+}
+.my-image {
+  width: 300px; 
+  max-height: 300px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #114e64;
+  margin-top: 20px;
+}
+header .container2 {
+  max-width: 1400px;
+  margin: 0 auto;
+ box-shadow: 4px 4px 4px pink;
+ height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align:center;
+  background-image: url(https://images.pexels.com/photos/6823459/pexels-photo-6823459.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+header a {
+  color: #333;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px burlywood;
+}
+
+.pages {
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+.home {
+ display: flex;
+ flex-direction: row;
+}
+
+.diabetic-stats-details {
+  background: #fff;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+ 
+}
+
+.diabetic-stats-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: #1aac83;
+}
+
+.diabetic-stats-details p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.diabetic-stats-details button {
+  background: #e7195a;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  transition:  0.3s ease-in-out;
+}
+
+.diabetic-stats-details button:hover {
+  background: #c91652;
+}
+
+.diabetic-stats-details button:focus {
+  outline: none;
+}
+
+.diabetic-stats-details button:disabled {
+  background: #ddd;
+  cursor: not-allowed;
+}
+
+/* You can add additional styles or animations as needed */
+
+form.diabetic-stats-form {
+  width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: paleturquoise;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 460px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+form.diabetic-stats-form h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #1aac83;
+}
+.name{
+  margin-top: -10px;
+  color: cadetblue;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button.submit-btn {
+  background: #1aac83;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid #e7195a;
+  color: #e7195a;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+
+
+input.error {
+  border: 1px solid var(--error);
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+.navincon{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+nav a {
+  background-color: #208ba391;
+  font-size: 25px;
+  margin-bottom: 3px;
+  margin-left: 6px;
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 4px 4px 4px gray;
+}
+nav a:hover{
+  box-shadow: inset 3px 3px 3px gray;
+}
+.nain{
+  display: flex;
+  justify-content: center;
+}
+nav button {
+  background: var(--primary);
+  color: #fff;
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Arial", sans-serif;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* auth forms */
+form.signup,
+form.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(66, 65, 65, 0.457);
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px 4px rgb(45, 39, 39);
+}
+
+form.signup h3,
+form.login h3 {
+  font-weight: 5px;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px rgb(91, 23, 79);
+  margin-top: 0;
+  color: #c0c5c3;
+}
+
+form.signup label,
+form.login label {
+  display: block;
+  
+  color:white;
+  margin-bottom: 5px;
+}
+
+form.signup input,
+form.login input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form.signup button,
+form.login button {
+  background: #12b0c2f7;
+  box-shadow: 4px 4px 4px rgba(0, 225, 255, 0.562);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  width: 400px;
+}
+form.signup button:active,
+form.login button:active{
+  box-shadow: inset 3px 3px 3px black;
+}
+form.signup button:disabled,
+form.login button:disabled {
+  background: #ddd;
+  cursor: not-allowed;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid #e7195a;
+  color: #e7195a;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.container button{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navincon{
+  margin-right: 25px;
+}
+.navin{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 60px;
+}
+/* Styles for high-sugar-level */
+.high-sugar-level {
+  background-color: #ff0000; /* Red background */
+  color: #ffffff; /* White text */
+  font-weight: bold;
+  text-shadow: 1px 1px  gray;
+}
+
+/* Styles for low-sugar-level */
+.low-sugar-level {
+  background-color: #ffff00; /* Yellow background */
+  color: #000000; /* Black text */
+  font-weight: bold;
+  text-shadow: 1px 1px  gray;
+}
+
+/* Styles for normal-sugar-level */
+.normal-sugar-level {
+  background-color: #00ff00; /* Green background */
+  color: #000000; /* Black text */
+  text-shadow: 1px 1px  gray;
+}
+.normal{
+  background-color: #1aac83;
+  color: #000000;
+  text-shadow: 1px 1px  gray;
+}
+.Diabetes-melitus{
+  background-color: rgb(179, 85, 3);
+  color: #000000;
+  font-weight: bolder;
+  text-shadow: 1px 1px  gray;
+}
+.note{
+  color: red;
+}
+.Hypoglycemia{
+  background-color: burlywood;
+  color: #000000;
+  font-weight: bolder;
+  text-shadow: 1px 1px  gray;
+}
+.loggedout{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width:400px) {
+  form.signup,
+form.login{
+  width: 250px;
+}
+form.signup button,
+form.login button{
+  width: 250px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+ }
+ .loggedout{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+ }
+}
+@media (min-width:800px) {
+  .diabetic-stats-details {
+    background: #fff;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+   width:500px;
+   margin-right: 50px;
+  }
+  .video-container{
+    margin-top: 70px;
+  }
+}
+@media (max-width:800px) {
+  .video-container{
+    display: none;
+  }
+  form.diabetic-stats-form {
+    width: 200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: paleturquoise;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 360px;
+    margin-right: 10px;
+  }
+}
