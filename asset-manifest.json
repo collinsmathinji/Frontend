@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-diabetes/static/css/main.af3f385f.css",
+    "main.js": "/my-diabetes/static/js/main.630bc5fb.js",
+    "static/media/pexel-photo.jpg": "/my-diabetes/static/media/pexel-photo.2a9b7d9a9a873948ab28.jpg",
+    "static/media/me.jpg": "/my-diabetes/static/media/me.872ae6d3d4b2e99f6d6f.jpg",
+    "static/media/pexels-photo-7904452.jpg": "/my-diabetes/static/media/pexels-photo-7904452.e829a7fb88e6a6c23296.jpg",
+    "static/media/pexels-photo-7653129.jpg": "/my-diabetes/static/media/pexels-photo-7653129.95eead1819c819e24fa4.jpg",
+    "static/media/pexels-photo-6836421.jpg": "/my-diabetes/static/media/pexels-photo-6836421.060397332a823d9ff653.jpg",
+    "static/media/slick.svg": "/my-diabetes/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/my-diabetes/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/my-diabetes/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/my-diabetes/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/my-diabetes/index.html",
+    "main.af3f385f.css.map": "/my-diabetes/static/css/main.af3f385f.css.map",
+    "main.630bc5fb.js.map": "/my-diabetes/static/js/main.630bc5fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af3f385f.css",
+    "static/js/main.630bc5fb.js"
+  ]
+}
